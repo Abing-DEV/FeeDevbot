@@ -27,7 +27,7 @@ TOMORROW = ['front_page', 'sport',  'lifestyle']
 LINKS = {
     'front_page': 'https://nafseyati.com/feed/',
     'lifestyle': 'https://popsciarabia.com/feed/',
-   'sport': 'https://rss.app/feeds/1QcMswwhEsrh8G7e.xml',
+   'sport': 'https://rss.app/feeds/1QcMswwhEsrh8G7e.xml'
     
 }
 
