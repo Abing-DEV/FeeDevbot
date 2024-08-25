@@ -22,7 +22,7 @@ RAGHAV_ID = 0   # int, account ID
 TOKEN = '7275336002:AAH1Wi1ArLSx-93GrVv60j9T0JJq_uKJD3s'
 BOT = telegram.Bot(TOKEN)
 TELEGRAPH = Telegraph()
-TELEGRAPH_ACC = TELEGRAPH.create_account(short_name='ieFeedBot')
+TELEGRAPH_ACC = TELEGRAPH.create_account(short_name='FeeDev')
 TOMORROW = ['front_page', 'sport',  'lifestyle']
 LINKS = {
     'front_page': 'https://nafseyati.com/feed/',
