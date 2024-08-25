@@ -22,7 +22,7 @@ RAGHAV_ID = 0   # int, account ID
 TOKEN = '7275336002:AAH1Wi1ArLSx-93GrVv60j9T0JJq_uKJD3s'
 BOT = telegram.Bot(TOKEN)
 TELEGRAPH = Telegraph()
-TELEGRAPH_ACC = TELEGRAPH.create_account(short_name='FeeDev')
+TELEGRAPH_ACC = TELEGRAPH.create_account(short_name='ie FeeDev')
 TOMORROW = ['front_page', 'sport',  'lifestyle']
 LINKS = {
     'front_page': 'https://nafseyati.com/feed/',
@@ -107,7 +107,7 @@ def new_message():
                 break
             except Exception as e:
                 print(e)
-                time.sleep(30)
+                time.sleep(3)
     global DAY
     DAY = str(datetime.date(datetime.now()))
 
@@ -130,7 +130,7 @@ while True:
         elif DB != {}:
             rss_thread = threading.Thread(target=rss_feed,)
             rss_thread.start()
-            time.sleep(30 * 60)
+            time.sleep(3 * 60)
     except Exception as e:
         try:
             err = sys.exc_info()
@@ -138,4 +138,4 @@ while True:
         except Exception as e:
             pass
         print(e)
-        time.sleep(30 * 60)
+        time.sleep(3 * 60)
