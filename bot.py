@@ -57,8 +57,8 @@ def create_tgph(entry):
         tgph = TELEGRAPH.create_page(
             entry.title,
             html_content=content,
-            author_name='IE Feed Bot',
-            author_url='https://t.me/ieFeedBot',
+            author_name='FeeDev',
+            author_url='https://t.me/FeeDev',
         )
     except Exception as e:
         report_me(f'⚠️ *ERROR:* ```{err[0]}```.\n\n *Content:* \n ```{content}```')
