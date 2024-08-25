@@ -19,7 +19,7 @@ DB = {}
 VISITED = {}
 CHAT_ID = -0    # int, channel ID
 RAGHAV_ID = 0   # int, account ID
-TOKEN = '7369670224:AAGC245B84MuY2mg1WdmUR9IxE1SkffYlhM'
+TOKEN = '7275336002:AAH1Wi1ArLSx-93GrVv60j9T0JJq_uKJD3s'
 BOT = telegram.Bot(TOKEN)
 TELEGRAPH = Telegraph()
 TELEGRAPH_ACC = TELEGRAPH.create_account(short_name='ieFeedBot')
